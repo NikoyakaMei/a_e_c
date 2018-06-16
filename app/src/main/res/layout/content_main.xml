@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="xjantuli.mendelu.cz.eventcalendar.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/alarm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="382dp"
+        android:onClick="openAlarm"/>
+
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/calendar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:onClick="openCalendar"
+        />
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CREATE EVENT"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:onClick="createEvent"
+        />
+</LinearLayout>
+

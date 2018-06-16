@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context=".NewEvent">
+
+    <Button
+        android:id="@+id/saveEvent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SAVE EVENT"
+        android:onClick="saveEvent"/>
+
+    <EditText
+        android:id="@+id/mDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="D-MM_YYYY"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/mMessage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
